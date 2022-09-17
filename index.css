@@ -1,11 +1,11 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: 'Montserrat', sans-serif !important;
+    font-family: 'Montserrat', sans-serif ;
     background-color: #FFF5F0;
 }
 button{
-    font-family: 'Montserrat', sans-serif !important; 
+    font-family: 'Montserrat', sans-serif ; 
 }
 .header{
    
@@ -68,7 +68,7 @@ button{
  background-color: #1BA0AB;
  color: white ;
  border-radius: 4px;
- font-family: 'Montserrat', sans-serif !important;
+ font-family: 'Montserrat', sans-serif ;
 }
 .header__button--active button svg{
     margin-left: 5px;
@@ -108,7 +108,7 @@ button{
 .welcome__footer{
  display: flex;
 }
-.welcome__button button{
+.welcome__button {
     text-align: center;
     letter-spacing: 0.2px;
     color: #1BA0AB;
@@ -123,7 +123,7 @@ button{
     border-radius: 3px;
     margin-right: 12px;
 }
-.welcome__button--active button{
+.welcome__button--active {
     background-color: #1BA0AB;
     color: white;
 }
@@ -300,7 +300,12 @@ button{
     border-radius: 5px;
     padding: 12px;
     width: 100%;
+    outline: none;
 
+}
+.form__item input::placeholder{
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif ; 
 }
 .form{
     margin-top: 60px;
@@ -341,9 +346,6 @@ button{
 @media only screen and (max-width:466px) {
     .header__button--active{
         display: none;
-    }
-    body{
-        overflow-x: hidden !important;
     }
 }
 @media only screen and (max-width:607px) {
