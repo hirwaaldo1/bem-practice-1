@@ -4,9 +4,7 @@ body{
     font-family: 'Montserrat', sans-serif ;
     background-color: #FFF5F0;
 }
-button{
-    font-family: 'Montserrat', sans-serif ; 
-}
+
 .header{
    
     padding-left: 10%;
@@ -50,7 +48,7 @@ button{
 .header__button{
     margin-right: 20px;
 }
-.header__divButton button{
+.header__button {
     text-align: center;
     letter-spacing: 0.2px;
     color: #1BA0AB;
@@ -63,14 +61,14 @@ button{
     border: none;
     background-color: transparent;
     border-radius: 4px;
+    font-family: 'Montserrat', sans-serif ;
 }
-.header__button--active button{
+.header__button--active{
  background-color: #1BA0AB;
  color: white ;
  border-radius: 4px;
- font-family: 'Montserrat', sans-serif ;
 }
-.header__button--active button svg{
+.header__svg{
     margin-left: 5px;
 }
 .welcome{
@@ -122,6 +120,7 @@ button{
     background-color: transparent;
     border-radius: 3px;
     margin-right: 12px;
+    font-family: 'Montserrat', sans-serif ;
 }
 .welcome__button--active {
     background-color: #1BA0AB;
@@ -169,6 +168,7 @@ button{
     border: none;
     width:fit-content ;
     border-radius: 4px;
+    font-family: 'Montserrat', sans-serif ;
 }
 .team{
   background-color: white;
@@ -219,7 +219,7 @@ button{
     -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.07);
     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.07);
 }
-.card img{
+.card__img{
     object-fit: cover;
     width: fit-content;
     border-top-left-radius: 14px;
@@ -232,14 +232,14 @@ button{
     display: flex;
     margin-left: -5px;
 }
-.card__footer li{
+.card__icons{
     text-align: left;
     display: inline;
     margin-left: 20px;
     width: fit-content;
     margin-left: 25px;
 }
-.card__footer li img{
+.card_svg{
     width: 25px;
     margin: 0;
     padding: 0;
@@ -294,16 +294,17 @@ button{
 .form__item--input{
     width: 100%;
 }
-.form__item input{
+.form__input{
     background: #F9F9F9;
     border: 1px solid #E6E6E6;
     border-radius: 5px;
     padding: 12px;
     width: 100%;
     outline: none;
+    text-align: left;
 
 }
-.form__item input::placeholder{
+.form__input::placeholder{
     font-weight: 500;
     font-family: 'Montserrat', sans-serif ; 
 }
@@ -317,6 +318,7 @@ button{
     color: white;
     border-radius: 0px 5px 5px 0px;
     width: 117px;
+    font-family: 'Montserrat', sans-serif ;
 }
 @media only screen and (max-width:1151px) {
     .card{
