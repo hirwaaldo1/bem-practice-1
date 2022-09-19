@@ -45,10 +45,10 @@ body{
     display: flex;
     float: right;
 }
-.header__button{
+.button{
     margin-right: 20px;
 }
-.header__button {
+.button {
     text-align: center;
     letter-spacing: 0.2px;
     color: #1BA0AB;
@@ -63,7 +63,7 @@ body{
     border-radius: 4px;
     font-family: 'Montserrat', sans-serif ;
 }
-.header__button--active{
+.button--active{
  background-color: #1BA0AB;
  color: white ;
  border-radius: 4px;
@@ -106,7 +106,7 @@ body{
 .welcome__footer{
  display: flex;
 }
-.welcome__button {
+.button--outlined {
     text-align: center;
     letter-spacing: 0.2px;
     color: #1BA0AB;
@@ -122,9 +122,15 @@ body{
     margin-right: 12px;
     font-family: 'Montserrat', sans-serif ;
 }
-.welcome__button--active {
+.button--contained {
     background-color: #1BA0AB;
     color: white;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    padding: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
 }
 .expert{
     display: flex;
@@ -312,7 +318,7 @@ body{
     margin-top: 60px;
     margin-bottom: 20px;
 }
-.form__item--button{
+.form__item--right{
     background: #1BA0AB;
     border: 1px solid #E6E6E6;
     color: white;
@@ -346,7 +352,7 @@ body{
     }
 }
 @media only screen and (max-width:466px) {
-    .header__button--active{
+    .button--active{
         display: none;
     }
 }
