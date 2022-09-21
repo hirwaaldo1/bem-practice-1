@@ -237,7 +237,7 @@ body{
     width: fit-content;
     margin-left: 25px;
 }
-.card_svg{
+.card__svg{
     width: 25px;
     margin: 0;
     padding: 0;
