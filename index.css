@@ -6,7 +6,6 @@ body{
 }
 
 .header{
-   
     padding-left: 10%;
     padding-right: 5%;
     height: 100%;
@@ -193,7 +192,6 @@ body{
     padding: 0;
     color: #252B42;
 }
-
 .desc{
     font-weight: 400;
     font-size: 14px;
@@ -224,7 +222,6 @@ body{
     border-top-right-radius: 14px;
 }
 .card__footer{
-
     text-align: left;
     width: fit-content;
     display: flex;
